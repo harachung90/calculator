@@ -17,20 +17,20 @@ let sumEL = document.getElementById("sum-el")
 
 function add() {
     product = num1 + num2;
-    sumEL.textContent = product;
+    sumEL.textContent = "Sum: " + product;
 }
 
 function subtract() {
     product = num1 - num2;
-    sumEL.textContent = product;
+    sumEL.textContent = "Sum: " + product;
 }
 
 function divide() {
     product = num1 / num2;
-    sumEL.textContent = product;
+    sumEL.textContent = "Sum: " + product;
 }
 
 function multiply() {
     product = num1 * num2;
-    sumEL.textContent = product;
+    sumEL.textContent = "Sum: " + product;
 }
